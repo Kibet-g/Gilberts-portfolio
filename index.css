@@ -88,6 +88,55 @@ header {
     margin: 10px 0;
 }
 
+.experience {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 100px 50px;
+    text-align: center;
+}
+.section-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    color: #a1cf41;
+}
+.experience-content {
+    display: flex;
+    justify-content: space-between;
+}
+.education, .job-experience {
+    flex: 1;
+    padding: 0 20px;
+}
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 20px;
+}
+.year {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.degree, .position {
+    font-size: 20px;
+    font-weight: bold;
+}
+.institution, .company {
+    font-size: 18px;
+    color: #a1cf41;
+}
+.job-description {
+    font-size: 16px;
+    color: #ccc;
+}
 .description {
     color: #ccc;
     margin: 20px 0;
