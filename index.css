@@ -11,14 +11,14 @@ body {
     background-color: #1b1b1b;
 }
 
-/* Navigation */
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; 
+    align-items: center; 
     padding: 20px 50px;
     background-color: #121212;
 }
+
 
 .logo h1 {
     font-size: 1.5rem;
@@ -158,18 +158,88 @@ li {
 
 /* Footer Section */
 footer {
+    background-color: #121212;
+    padding: 50px;
+    text-align: center;
+}
+
+.social-links p {
+    font-size: 20px;
+    color: #a1cf41;
+    margin-bottom: 20px;
+}
+
+.social-links {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
-    background-color: #121212;
-}
-
-.client-logos {
-    display: flex;
-    gap: 30px;
     align-items: center;
+    gap: 20px; /* Spacing between icons */
 }
 
-.client-logos img {
-    height: 40px;
+/* Social Icon Common Styling */
+.social-icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
+
+.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* LinkedIn Icon */
+.linkedin {
+    background-color: #0077b5;
+}
+
+.linkedin:hover {
+    background-color: #005582;
+}
+
+/* GitHub Icon */
+.github {
+    background-color: #333;
+}
+
+.github:hover {
+    background-color: #24292e;
+}
+
+/* Twitter Icon */
+.twitter {
+    background-color: #1da1f2;
+}
+
+.twitter:hover {
+    background-color: #0d95e8;
+}
+
+/* Instagram Icon */
+.instagram {
+    background: radial-gradient(circle at 30% 30%, #fdf497, #fdf497 35%, #fd5949 50%, #d6249f 60%, #285aeb);
+}
+
+.instagram:hover {
+    background: radial-gradient(circle at 30% 30%, #feda75, #d6249f 40%, #285aeb);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .social-links {
+        gap: 15px;
+    }
+
+    .social-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 50px;
+    }
