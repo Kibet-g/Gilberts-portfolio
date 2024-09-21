@@ -304,3 +304,70 @@ footer {
         font-size: 24px;
         line-height: 50px;
 }
+
+
+.projects-section {
+    padding: 60px 0;
+    background-color: #121212;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #b0ff00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Projects Container */
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+/* Individual Project Item */
+.project-item {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    width: 45%;
+    padding: 20px;
+    text-align: left;
+    color: #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project-details h3 {
+    font-size: 24px;
+    color: #b0ff00;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    margin-bottom: 10px;
+}
+
+.project-details strong {
+    color: #b0ff00;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
