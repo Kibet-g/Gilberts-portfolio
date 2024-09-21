@@ -28,3 +28,4 @@ Clone the repository:
    git clone https://github.com/yourusername/Gilberts-portfolio
 
    I have deployed the webiste on netlify you can acess it using the link below
+   https://gilbert-korir.netlify.app/
